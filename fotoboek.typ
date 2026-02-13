@@ -181,6 +181,150 @@
 )
 
 #fotopage(
+  title: "BEVACO",
+  gutter: 4pt,
+  photos: (
+    ("bevaco_00.png",
+    "bevaco_01.png",
+    "bevaco_02.png"),
+    ("bevaco_03.png",
+    "bevaco_04.png",
+    "bevaco_05.png"),
+    ("bevaco_06.png",
+    "bevaco_07.png",
+    "bevaco_08.png"),
+    ("bevaco_09.png",
+    "bevaco_10.png",
+    "bevaco_11.png"),
+  )
+)
+
+#fotopage(
+  title: "BEVACO",
+  gutter: 4pt,
+  photos: (
+    ("bevaco_12.png",
+    "bevaco_13.png",
+    "bevaco_14.png"),
+    ("bevaco_15.png",
+    "bevaco_16.png",
+    "bevaco_17.png"),
+    ("bevaco_18.png",
+    "bevaco_19.png",
+    "bevaco_20.png"),
+    ("bevaco_21.png",
+    "bevaco_22.png",
+    "bevaco_23.png"),
+  )
+)
+
+#fotopage(
+  title: "BEVACO",
+  gutter: 4pt,
+  photos: (
+    ("bevaco_24.png",
+    "bevaco_25.png",
+    "bevaco_26.png"),
+    ("bevaco_91.png",
+    "bevaco_28.png",
+    "bevaco_29.png"),
+    ("bevaco_30.png",
+    "bevaco_31.png",
+    "bevaco_32.png"),
+    ("bevaco_33.png",
+    "bevaco_34.png",
+    "bevaco_35.png"),
+  )
+)
+
+#fotopage(
+  title: "BEVACO",
+  gutter: 4pt,
+  photos: (
+    ("bevaco_36.png",
+    "bevaco_37.png",
+    "bevaco_38.png"),
+    ("bevaco_39.png",
+    "bevaco_40.png",
+    "bevaco_41.png"),
+    ("bevaco_42.png",
+    "bevaco_45.png",
+    "bevaco_46.png"),
+    ("bevaco_47.png",
+    "bevaco_48.png",
+    "bevaco_49.png"),
+  )
+)
+#fotopage(
+  title: "BEVACO",
+  gutter: 4pt,
+  photos: (
+    ("bevaco_51.png",
+    "bevaco_52.png",
+    "bevaco_53.png"),
+    ("bevaco_54.png",
+    "bevaco_56.png",
+    "bevaco_57.png"),
+    ("bevaco_58.png",
+    "bevaco_59.png",
+    "bevaco_60.png"),
+    ("bevaco_61.png",
+    "bevaco_63.png",
+    "bevaco_64.png"),
+  )
+)
+
+#fotopage(
+  title: "BEVACO",
+  gutter: 4pt,
+  photos: (
+    ("bevaco_66.png",
+      "bevaco_67.png",
+      "bevaco_68.png"),
+      ("bevaco_69.png",
+      "bevaco_70.png",
+      "bevaco_71.png"),
+      ("bevaco_72.png",
+      "bevaco_74.png",
+      "bevaco_75.png"),
+      ("bevaco_76.png",
+      "bevaco_77.png",
+      "bevaco_78.png"),
+  )
+)
+#fotopage(
+  title: "BEVACO",
+  gutter: 4pt,
+  photos: (
+    ("bevaco_79.png",
+    "bevaco_80.png",
+    "bevaco_81.png"),
+    ("bevaco_82.png",
+    "bevaco_83.png",
+    "bevaco_84.png"),
+    ("bevaco_85.png",
+    "bevaco_86.png",
+    "bevaco_87.png"),
+    ("bevaco_88.png",
+    "bevaco_89.png",
+    "bevaco_90.png"),
+  )
+)
+
+"bevaco_79.png",
+"bevaco_80.png",
+"bevaco_81.png",
+"bevaco_82.png",
+"bevaco_83.png",
+"bevaco_84.png",
+"bevaco_85.png",
+"bevaco_86.png",
+"bevaco_87.png",
+"bevaco_88.png",
+"bevaco_89.png",
+"bevaco_90.png",
+
+#fotopage(
   title: "William Hunter",
   bovenschrift: "President der 146 ",
   onderschrift: "Dit is een onderschrift.",
@@ -244,6 +388,78 @@
 )
 
 
+#fotopage(
+  title: "Karen van der Werff",
+  photos: (
+    ("4 bovenin.jpg",
+    "4 broodje.JPG",
+    "4 bureau.JPG"),
+    ("4 bureau2.JPG",
+    "4 champagne 2.JPG",
+    "4 champagne.JPG"),
+    ("4 de kraan.JPG",
+    "4 dueueu.JPG",
+    "4 duimpje.JPG"),
+    ("4 duimpjes.JPG",
+    "4 eemcs.JPG",
+    "4 escalalala.jpg"),
+    ("4 eueuh.JPG",
+    "4 hallo.JPG",
+    "4 hoed.JPG"),
 
+
+
+  )
+)
+
+
+#fotopage(
+  title: "Karen van der Werff",
+  photos: (
+    ("4 ice.JPG",
+    "4 kdfrn.JPG",
+    "4 kerstcloseup.JPG"),
+    ("4 kranen.JPG",
+    "4 omhoog.JPG",
+    "4 roller.JPG"),
+    ("4 schenkkerst.JPG",
+    "4 slapen.jpg",
+    "4 slokslok.JPG"),
+    ("4 staar.jpg",
+    "4 tongetje.JPG",
+    "4 tram kerst.jpg"),
+    ("4 vragend.JPG",
+    "4 wilde haren.JPG",
+    "4 zwoel.JPG"),
+  )
+)
+
+#fotopage(
+  title: "Thomas Roos",
+  photos: (("5 auwie.jpg",
+  "5 barffie.jpg"),
+
+ (
+  "5 kersttram.jpg",
+  "5 close up.JPG"),
+  ("5 blije tom.JPG", "5 djansen.JPG",
+    "5 ehoeee.JPG"),
+  ("5 heuuh.JPG",
+    "5 ice ice baby.JPG",)
+  )
+)
+#fotopage(
+  title: "Thomas Roos",
+  photos: (
+    ("5 ik pakje.JPG",
+      "5 kom hier.JPG"),
+    (
+      "5 laat me.JPG", "5 loekkie close.JPG"),
+      (
+    "5 nom nom.JPG",
+      "5 slaapje.jpg"),
+    ("5 tong.JPG",
+      "5 vies tongetje.JPG", "5 brakkie.jpg"),)
+)
 
 #context render-unused-photos(used-photos-state.final())

@@ -1,18 +1,20 @@
 # fotoboek maker. 
 
-Set up. 
-
-1. Install typst en iets van python.
-2. zorg dat fotos vol staat met alles. 
-3. run generate_fotos_typ.py
 
 ## during development
 
+The repo already contains the thumbnails. So you can just call: 
+
+```
 typst watch fotoboek.typ
+```
+
+this will show updates on saving the file. 
 
 ## final file
 
 This takes longer as it needs to work with high resolution images. 
+Also you need a copy of the full resolution files. Ask wouter. 
 
 ```
 typst compile fotoboek.typ --input HQ=true
