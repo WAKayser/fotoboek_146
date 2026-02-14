@@ -57,7 +57,7 @@
   bovenschrift: none,
   onderschrift: none,
   photos: (),
-  gutter: 1em,
+  gutter: 6pt,
 ) = {
   let map-photo = (item) => {
     if type(item) == str {

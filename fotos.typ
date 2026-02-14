@@ -371,6 +371,7 @@
   "q2 code gala 3.jpg",
   "q2 code gala.jpg",
   "q2 diesdeceptie en alc feest 6.JPG",
+  "q2 diner kroes.JPG",
   "q2 dromenland 1.JPG",
   "q2 dromenland 2.JPG",
   "q2 dromenland 3.JPG",
