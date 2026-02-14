@@ -42,7 +42,7 @@
   title: "Eten Met Life",
   photos: (
     ("q1 eten met life.JPG",  "q1 eten met life6.JPG"),
-    ((path: "q1 eten met life4.JPG", aspect: 1.2)),
+    ((path: "q1 eten met life4.JPG", aspect: 1.2), "q2 eten met life 3.JPG",),
     ("q1 eten met life2.JPG", "q1 eten met life7.JPG"),
   )
 )
@@ -80,7 +80,7 @@
   photos: (
     ("q1 alcmaeon 2.JPG", "q1 alcmaeon 1.JPG"),
     ("q1 alcmeauon.JPG","q1 alcmaeon 4.JPG"),
-    ("q1 alcmaeon 6.JPG","q1 alcmaeon 3.JPG")
+    ("q1 alcmaeon 6.JPG","q1 alcmaeon 3.JPG"),
   )
 )
 
@@ -123,9 +123,13 @@
 #fotopage(
   title: "Grondboren",
   photos: (
-    ("q1 grondboren1.JPG",  "q1 grondboren2.JPG"),
-    ("q1 grondboren3.JPG"))
+    ("q1 grondboren2.JPG", (path: "q1 grondboren1.JPG", aspect: 1)),
+    (path: "q1 grondboren3.JPG", aspect: 1),
+    ((path: "q2 grondboren aftermath21.jpg", aspect: 1),
+      "q2 grondboren aftermath22.jpg"),
+  )
 )
+
 
 
 
@@ -179,6 +183,251 @@
     ("q1 bestuurskamer.JPG", "q1 diplomauitreiking.jpg"),
     ("q1 ehbotraining.jpg", "q1 ijsje.jpg"))
 )
+
+#fotopage(
+  title: "14X Diner",
+  photos: (
+    ("q2 14x diner 1.JPG",
+    "q2 14x diner 10.JPG",
+    "q2 14x diner 11.JPG"),
+    ("q2 14x diner 2.JPG",
+    "q2 14x diner 3.JPG",
+    "q2 14x diner 4.JPG"),
+    ("q2 14x diner 5.JPG",
+    "q2 14x diner 6.JPG",
+    "q2 14x diner 7.JPG"),
+    ("q2 14x diner 8.JPG",
+      "q2 14x diner 9.JPG"),
+  )
+)
+
+#fotopage(
+  title: "CoDe Gala",
+  photos: (
+    ((path:"q2 code gala 2.jpg", aspect: 0.8),
+      (path: "q2 code gala 22.jpg", aspect: 0.7)),
+    "q2 code gala 3.jpg",
+  )
+)
+
+#fotopage(
+  title: "Mercurius Feestje",
+  photos: (
+    ("q2 mercurius 1.JPG",
+    "q2 mercurius 2.JPG",
+    "q2 mercurius 3.JPG"),
+    ("q2 mercurius 4.JPG",
+      "q2 mercurius 5.JPG"),
+    ("q2 mercurius 6.JPG",
+
+   "q2 mercurius 8.JPG",
+      ),
+  )
+)
+
+
+#fotopage(
+  title: "CoDe  Feestje",
+  photos: (
+    ("q2 feestje code1.JPG",
+    "q2 feestje code10.JPG",
+    "q2 feestje code2.JPG"),
+    ("q2 feestje code3.JPG",
+    "q2 feestje code4.JPG",
+    "q2 feestje code5.JPG"),
+    ("q2 feestje code6.JPG",
+    "q2 feestje code7.JPG",
+    "q2 feestje code8.JPG"),
+    ("q2 feestje code9.JPG",
+      "q2 feestje leiden.jpg"),
+  )
+)
+
+#fotopage(
+  title: "Kerst",
+  photos: (
+    ("q2 kerst.jpg",
+      (path: "q2 kerst3zittend.JPG", aspect: 0.5)),
+    ("q2 kerstman.JPG",
+      "q2 kerstmetthom.JPG"),
+  )
+)
+
+#fotopage(
+  title: "Met CoDe naar DSB",
+  photos: (
+    ("q2 met code naar dsb 1.JPG", "q2 met code naar dsb 2.JPG", "q2 met code naar dsb 3.JPG"),
+    ("q2 met code naar dsb 4.JPG",  (path: "q2 met code naar dsb 5.JPG", aspect: 1)),
+    ("q2 met code naar dsb 9.JPG",  "q2 met code naar dsb 10.JPG"),
+  )
+)
+
+#fotopage(
+  title: "VVTP Gala",
+  photos: (
+    ("q2 big doinks.jpg",
+      "q2 vvtp gala1.JPG"),
+    ("q2 vvtp gala2.JPG",
+      "q2 vvtp gala3.JPG"),
+    ("q2 gala vvtp.jpg",
+      "q2 vvtp gala4.JPG"),
+  )
+)
+
+
+#fotopage(
+  title: "Wispo: Risoul vet Cool",
+  photos: (
+   ( "q2 wispo groep.jpg",
+    (path: "q2 wispo.jpg", aspect: 0.5),
+        "q2 wispo22.jpg"),
+    ((path: "q2 wispo21.jpg", aspect: 0.8),    "q2 wispo32.jpg"),
+
+    ((path: "q2 wispo23.jpg", aspect: 0.5),
+    (path: "q2 wispo31.jpg", aspect: 0.3),
+
+    (path: "q2 wispo33.jpg", aspect: 0.6)),
+  )
+)
+
+#fotopage(
+  title: "Misc Q2",
+  gutter: 4pt,
+  photos: (
+    ("q2 bak werken.jpg",
+    "q2 biertje doen.JPG",
+    "q2 bk stoeien.jpg",),
+    ("q2 dromenland 1.JPG",
+    "q2 dromenland 2.JPG",
+    "q2 dromenland 3.JPG"),
+    ("q2 kobuswissel.JPG",
+    "q2 luxe voor kraan.jpg","q2 slav squad.JPG"),
+    ("q2 snackkie.jpg",
+    "q2 thomice.jpg",
+    "q2 treinen.jpg"),
+    ("q2 verenigingsverzamelaar.jpg",
+    "q2 verenigingsverzamelaar2.jpg",
+    "q2 VIB gala.jpg"),
+  )
+)
+
+
+#fotopage(
+  title: "CoDe-ETV Cantus",
+  photos: (
+    ("q3 code cantus1.JPG",
+    "q3 code cantus2.JPG",
+    "q3 code cantus3.JPG"),
+    ("q3 code cantus4.JPG",
+      "q3 code cantus5.JPG"),
+    ("q3 code cantus6.JPG",
+      "q3 code cantus7.JPG"),
+    ("q3 code cantus8.JPG",
+    "q3 code cantus9.JPG",
+    "q3 code cantus10.JPG"),
+  )
+)
+
+#fotopage(
+  title: "Code-ETV Cantus",
+  photos: (
+    ("q3 code cantus11.JPG",
+      "q3 code cantus12.JPG"),
+    ("q3 code cantus14.JPG",
+    "q3 code cantus15.JPG"),
+    ("q3 code cantus16.JPG",
+      "q3 code cantus17.JPG"),
+    ("q3 code cantus13.JPG",
+      "q3 code cantus19.JPG"),
+  )
+)
+
+#fotopage(
+  title: "Diesdeceptie en Alcmaeon Feest",
+  photos: (
+    ("q3 diesdeceptie en alc feest 1.JPG",
+      "q3 diesdeceptie en alc feest 2.JPG"),
+    ("q3 diesdeceptie en alc feest 3.JPG",
+      "q3 diesdeceptie en alc feest 4.JPG"),
+    ("q3 diesdeceptie en alc feest 5.JPG",
+      "q2 diesdeceptie en alc feest 6.JPG"),
+  )
+)
+
+"q3 iff leiden 1.JPG",
+"q3 iff leiden 2.JPG",
+"q3 iff leiden 3.JPG",
+"q3 iff leiden 4.JPG",
+"q3 iff leiden 5.JPG",
+"q3 iff leiden 6.JPG",
+"q3 iff leiden 7.JPG",
+"q3 iff leiden 8.JPG",
+"q3 iff leiden 9.JPG",
+"q3 iff leiden 10.JPG",
+"q3 iff leiden 11.JPG",
+
+
+"q3 megala.jpg",
+"q3 megala1.JPG",
+"q3 megala2.JPG",
+"q3 megala3.JPG",
+"q3 megala4.JPG",
+"q3 megala5.JPG",
+"q3 megala6.JPG",
+"q3 megala7.JPG",
+"q3 megala8.JPG",
+"q3 megala9.JPG",
+"q3 megala10.JPG",
+"q3 megala11.JPG",
+"q3 megala12.JPG",
+"q3 megala13.JPG",
+"q3 megala14.JPG",
+"q3 megala15.JPG",
+"q3 megala16.JPG",
+"q3 megala17.JPG",
+"q3 megala 31.jpg",
+"q3 megala 32.jpg",
+"q3 megala 33.jpg",
+
+"q3 misc1.jpg",
+"q3 misc2.jpg",
+"q3 misc3.jpg",
+"q3 electrip.JPG",
+
+"q3 oras en bootsman1.JPG",
+"q3 oras en bootsman2.JPG",
+"q3 oras en bootsman3.JPG",
+"q3 oras en bootsman4.JPG",
+"q3 oras en bootsman5.JPG",
+"q3 oras en bootsman6.JPG",
+"q3 oras en bootsman7.JPG",
+"q3 oras en bootsman8.JPG",
+"q3 oras en bootsman9.JPG",
+"q3 oras en bootsman10.JPG",
+"q3 oras en bootsman11.JPG",
+"q3 oras en bootsman12.JPG",
+"q3 oras en bootsman13.JPG",
+"q3 oras en bootsman14.JPG",
+"q3 oras en bootsman15.JPG",
+"q3 oras en bootsman16.jpeg",
+"q3 orasgala spel.jpg",
+"q2 oras galading.jpg",
+"q2 orasgala234.jpg",
+"q3 orasgala23.jpg",
+
+"q3 receptie1.jpg",
+"q3 receptie2.jpg",
+"q3 receptie3.jpg",
+
+"q3 schaduw dddbdb1.JPG",
+"q3 schaduw dddbdb2.JPG",
+"q3 schaduw dddbdb3.JPG",
+"q3 schaduw dddbdb4.JPG",
+"q3 schaduw dddbdb5.JPG",
+"q3 schaduw dddbdb6.JPG",
+
+"q3 diner vd sluis.JPG",
+"q3 backer en verbruggen.JPG",
 
 #fotopage(
   title: "BEVACO",
@@ -311,18 +560,6 @@
   )
 )
 
-"bevaco_79.png",
-"bevaco_80.png",
-"bevaco_81.png",
-"bevaco_82.png",
-"bevaco_83.png",
-"bevaco_84.png",
-"bevaco_85.png",
-"bevaco_86.png",
-"bevaco_87.png",
-"bevaco_88.png",
-"bevaco_89.png",
-"bevaco_90.png",
 
 #fotopage(
   title: "William Hunter",
