@@ -74,23 +74,9 @@
   ),
 )
 
-#fotopage(
-  title: "Alcmaeon Feestje Q1",
-  photos: (
-    ("q1 alcmaeon 2.JPG", "q1 alcmaeon 1.JPG"),
-    ("q1 alcmeauon.JPG", "q1 alcmaeon 4.JPG"),
-    ("q1 alcmaeon 6.JPG", "q1 alcmaeon 3.JPG"),
-  ),
-)
 
-#fotopage(
-  title: "Champagneborrel",
-  photos: (
-    ((path: "q1 champagneborrel 1.JPG", aspect: 0.7), "q1 champagneborrel 4.JPG"),
-    ("q1 champagneborrel 6.JPG", (path: "q1 champagneborrel 2.JPG", aspect: 0.8)),
-    ("q1 champagneborrel 7.JPG", "q1 champagneborrel 3.JPG", "q1 champagnne.jpg"),
-  ),
-)
+
+
 
 #fotopage(
   title: "CoBo's met A Eskwadraat en ECU 92",
@@ -103,7 +89,7 @@
 )
 
 #fotopage(
-  title: "IFF",
+  title: "IFF Delft",
   photos: (
     ((path: "q1 iff 1.JPG", aspect: 1), "q1 iff 2.JPG", "q1 iff 3.JPG"),
     ("q1 iff 5.JPG", "q1 iff 6.JPG"),
@@ -121,11 +107,39 @@
 )
 
 #fotopage(
+  title: "Champagneborrel",
+  photos: (
+    ((path: "q1 champagneborrel 1.JPG", aspect: 0.7), "q1 champagneborrel 4.JPG"),
+    ("q1 champagneborrel 6.JPG", (path: "q1 champagneborrel 2.JPG", aspect: 0.8)),
+    ("q1 champagneborrel 7.JPG", "q1 champagneborrel 3.JPG", "q1 champagnne.jpg"),
+  ),
+)
+
+#fotopage(
   title: "Grondboren",
   photos: (
     ("q1 grondboren2.JPG", (path: "q1 grondboren1.JPG", aspect: 1)),
     (path: "q1 grondboren3.JPG", aspect: 1),
     ((path: "q2 grondboren aftermath21.jpg", aspect: 1), "q2 grondboren aftermath22.jpg"),
+  ),
+)
+
+#fotopage(
+  title: "Alcmaeon Feestje Q1",
+  photos: (
+    ("q1 alcmaeon 2.JPG", "q1 alcmaeon 1.JPG"),
+    ("q1 alcmeauon.JPG", "q1 alcmaeon 4.JPG"),
+    ("q1 alcmaeon 6.JPG", "q1 alcmaeon 3.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "Emile Feestje",
+  photos: (
+    ("q1 emile feest 1.JPG", "q1 emile feest 10.JPG", "q1 emile feest 11.JPG"),
+    ("q1 emile feest 12.JPG", "q1 emile feest 2.JPG", "q1 emile feest 3.JPG"),
+    ("q1 emile feest 4.JPG", "q1 emile feest 5.JPG", "q1 emile feest 6.JPG"),
+    ("q1 emile feest 7.JPG", "q1 emile feest 8.JPG", "q1 emile feest 9.JPG"),
   ),
 )
 
@@ -152,15 +166,7 @@
   ),
 )
 
-#fotopage(
-  title: "Emile Feestje",
-  photos: (
-    ("q1 emile feest 1.JPG", "q1 emile feest 10.JPG", "q1 emile feest 11.JPG"),
-    ("q1 emile feest 12.JPG", "q1 emile feest 2.JPG", "q1 emile feest 3.JPG"),
-    ("q1 emile feest 4.JPG", "q1 emile feest 5.JPG", "q1 emile feest 6.JPG"),
-    ("q1 emile feest 7.JPG", "q1 emile feest 8.JPG", "q1 emile feest 9.JPG"),
-  ),
-)
+
 
 #fotopage(
   title: "EESTEC Congress",
@@ -185,24 +191,6 @@
 )
 
 #fotopage(
-  title: "14X Diner",
-  photos: (
-    ("q2 14x diner 1.JPG", "q2 14x diner 10.JPG", "q2 14x diner 11.JPG"),
-    ("q2 14x diner 2.JPG", "q2 14x diner 3.JPG", "q2 14x diner 4.JPG"),
-    ("q2 14x diner 5.JPG", "q2 14x diner 6.JPG", "q2 14x diner 7.JPG"),
-    ("q2 14x diner 8.JPG", "q2 14x diner 9.JPG"),
-  ),
-)
-
-#fotopage(
-  title: "CoDe Gala",
-  photos: (
-    ((path: "q2 code gala 2.jpg", aspect: 0.8), (path: "q2 code gala 22.jpg", aspect: 0.7)),
-    "q2 code gala 3.jpg",
-  ),
-)
-
-#fotopage(
   title: "Mercurius Feestje",
   photos: (
     ("q2 mercurius 1.JPG", "q2 mercurius 2.JPG", "q2 mercurius 3.JPG"),
@@ -211,22 +199,13 @@
   ),
 )
 
-
 #fotopage(
-  title: "CoDe  Feestje",
+  title: "14X Diner",
   photos: (
-    ("q2 feestje code1.JPG", "q2 feestje code10.JPG", "q2 feestje code2.JPG"),
-    ("q2 feestje code3.JPG", "q2 feestje code4.JPG", "q2 feestje code5.JPG"),
-    ("q2 feestje code6.JPG", "q2 feestje code7.JPG", "q2 feestje code8.JPG"),
-    ("q2 feestje code9.JPG", "q2 feestje leiden.jpg"),
-  ),
-)
-
-#fotopage(
-  title: "Kerst",
-  photos: (
-    ("q2 kerst.jpg", (path: "q2 kerst3zittend.JPG", aspect: 0.5)),
-    ("q2 kerstman.JPG", "q2 kerstmetthom.JPG"),
+    ("q2 14x diner 1.JPG", "q2 14x diner 10.JPG", "q2 14x diner 11.JPG"),
+    ("q2 14x diner 2.JPG", "q2 14x diner 3.JPG", "q2 14x diner 4.JPG"),
+    ("q2 14x diner 5.JPG", "q2 14x diner 6.JPG", "q2 14x diner 7.JPG"),
+    ("q2 14x diner 8.JPG", "q2 14x diner 9.JPG"),
   ),
 )
 
@@ -245,6 +224,34 @@
     ("q2 big doinks.jpg", "q2 vvtp gala1.JPG"),
     ("q2 vvtp gala2.JPG", "q2 vvtp gala3.JPG"),
     ("q2 gala vvtp.jpg", "q2 vvtp gala4.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "CoDe  Feestje",
+  photos: (
+    ("q2 feestje code1.JPG", "q2 feestje code10.JPG", "q2 feestje code2.JPG"),
+    ("q2 feestje code3.JPG", "q2 feestje code4.JPG", "q2 feestje code5.JPG"),
+    ("q2 feestje code6.JPG", "q2 feestje code7.JPG", "q2 feestje code8.JPG"),
+    ("q2 feestje code9.JPG", "q2 feestje leiden.jpg"),
+  ),
+)
+
+
+#fotopage(
+  title: "Kerst",
+  photos: (
+    ("q2 kerst.jpg", (path: "q2 kerst3zittend.JPG", aspect: 0.5)),
+    ("q2 kerstman.JPG", "q2 kerstmetthom.JPG"),
+  ),
+)
+
+
+#fotopage(
+  title: "CoDe Gala",
+  photos: (
+    ((path: "q2 code gala 2.jpg", aspect: 0.8), (path: "q2 code gala 22.jpg", aspect: 0.7)),
+    "q2 code gala 3.jpg",
   ),
 )
 
@@ -274,26 +281,6 @@
 )
 
 #fotopage(
-  title: "CoDe-ETV Cantus",
-  photos: (
-    ("q3 code cantus1.JPG", "q3 code cantus2.JPG", "q3 code cantus3.JPG"),
-    ("q3 code cantus4.JPG", "q3 code cantus5.JPG"),
-    ("q3 code cantus6.JPG", "q3 code cantus7.JPG"),
-    ("q3 code cantus8.JPG", "q3 code cantus9.JPG", "q3 code cantus10.JPG"),
-  ),
-)
-
-#fotopage(
-  title: "Code-ETV Cantus",
-  photos: (
-    ("q3 code cantus11.JPG", "q3 code cantus12.JPG"),
-    ("q3 code cantus14.JPG", "q3 code cantus15.JPG"),
-    ("q3 code cantus16.JPG", "q3 code cantus17.JPG"),
-    ("q3 code cantus13.JPG", "q3 code cantus19.JPG"),
-  ),
-)
-
-#fotopage(
   title: "Diesdeceptie en Alcmaeon Feest",
   photos: (
     ("q3 diesdeceptie en alc feest 1.JPG", "q3 diesdeceptie en alc feest 2.JPG"),
@@ -309,6 +296,26 @@
     ("q3 iff leiden 4.JPG", "q3 iff leiden 5.JPG", "q3 iff leiden 6.JPG"),
     ("q3 iff leiden 7.JPG", "q3 iff leiden 8.JPG", "q3 iff leiden 9.JPG"),
     ("q3 iff leiden 10.JPG", "q3 iff leiden 11.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "ORAS Gala en Afstubo Bootsman",
+  photos: (
+    ("q3 oras en bootsman1.JPG", "q3 oras en bootsman2.JPG", "q3 oras en bootsman3.JPG"),
+    ("q3 oras en bootsman4.JPG", "q3 oras en bootsman5.JPG"),
+    ("q3 oras en bootsman6.JPG", "q3 oras en bootsman7.JPG"),
+    ("q3 oras en bootsman8.JPG", "q3 oras en bootsman9.JPG", "q3 oras en bootsman10.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "ORAS Gala en Afstubo Bootsman",
+  photos: (
+    ((path: "q2 orasgala234.jpg", aspect: 0.8), (path: "q3 orasgala23.jpg", aspect: 1.1)),
+    ((path: "q3 orasgala spel.jpg", aspect: 1.2), "q3 oras en bootsman11.JPG"),
+    ("q3 oras en bootsman12.JPG", "q3 oras en bootsman16.jpeg"),
+    ("q3 oras en bootsman14.JPG", "q3 oras en bootsman15.JPG", "q3 oras en bootsman13.JPG"),
   ),
 )
 
@@ -333,41 +340,22 @@
 )
 
 #fotopage(
-  title: "ORAS Gala en Afstubo Bootsman",
+  title: "CoDe-ETV Cantus",
   photos: (
-    ("q3 oras en bootsman1.JPG", "q3 oras en bootsman2.JPG", "q3 oras en bootsman3.JPG"),
-    ("q3 oras en bootsman4.JPG", "q3 oras en bootsman5.JPG"),
-    ("q3 oras en bootsman6.JPG", "q3 oras en bootsman7.JPG"),
-    ("q3 oras en bootsman8.JPG", "q3 oras en bootsman9.JPG", "q3 oras en bootsman10.JPG"),
+    ("q3 code cantus1.JPG", "q3 code cantus2.JPG", "q3 code cantus3.JPG"),
+    ("q3 code cantus4.JPG", "q3 code cantus5.JPG"),
+    ("q3 code cantus6.JPG", "q3 code cantus7.JPG"),
+    ("q3 code cantus8.JPG", "q3 code cantus9.JPG", "q3 code cantus10.JPG"),
   ),
 )
 
 #fotopage(
-  title: "ORAS Gala en Afstubo Bootsman",
+  title: "Code-ETV Cantus",
   photos: (
-    ((path: "q2 orasgala234.jpg", aspect: 0.8), (path: "q3 orasgala23.jpg", aspect: 1.1)),
-    ((path: "q3 orasgala spel.jpg", aspect: 1.2), "q3 oras en bootsman11.JPG"),
-    ("q3 oras en bootsman12.JPG", "q3 oras en bootsman16.jpeg"),
-    ("q3 oras en bootsman14.JPG", "q3 oras en bootsman15.JPG", "q3 oras en bootsman13.JPG"),
-  ),
-)
-
-
-#fotopage(
-  title: "Schaduw DDBDBDB",
-  photos: (
-    ("q3 schaduw dddbdb1.JPG", "q3 schaduw dddbdb2.JPG"),
-    ("q3 schaduw dddbdb3.JPG", "q3 schaduw dddbdb4.JPG"),
-    ("q3 schaduw dddbdb5.JPG", "q3 schaduw dddbdb6.JPG"),
-  ),
-)
-
-
-#fotopage(
-  title: "Q3 MISC",
-  photos: (
-    ((path: "bevaco.JPG", aspect: 0.5), "q3 misc2.jpg"),
-    ((path: "q3 misc3.jpg", aspect: 0.5), "q3 electrip.JPG"),
+    ("q3 code cantus11.JPG", "q3 code cantus12.JPG"),
+    ("q3 code cantus14.JPG", "q3 code cantus15.JPG"),
+    ("q3 code cantus16.JPG", "q3 code cantus17.JPG"),
+    ("q3 code cantus13.JPG", "q3 code cantus19.JPG"),
   ),
 )
 
@@ -450,6 +438,99 @@
 )
 
 #fotopage(
+  title: "Schaduw DDBDBDB",
+  photos: (
+    ("q3 schaduw dddbdb1.JPG", "q3 schaduw dddbdb2.JPG"),
+    ("q3 schaduw dddbdb3.JPG", "q3 schaduw dddbdb4.JPG"),
+    ("q3 schaduw dddbdb5.JPG", "q3 schaduw dddbdb6.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "Q3 MISC",
+  photos: (
+    ((path: "bevaco.JPG", aspect: 0.5), "q3 misc2.jpg"),
+    ((path: "q3 misc3.jpg", aspect: 0.5), "q3 electrip.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "EESTEC en Heineken",
+  photos: (
+    ("q4 eestec2.JPG", "q4 eestec3.JPG"),
+    ((path: "q4 heineken1.JPG", aspect: 0.5), (path: "q4 heineken2.JPG", aspect: 0.6)),
+  ),
+)
+
+
+#fotopage(
+  title: "Leidsche Fles Poging 2",
+  photos: (
+    ("q4 leidsche fles6.JPG", "q4 leidsche fles7.JPG"),
+    ("q4 leidsche fles4.JPG", (path: "q4 leidsche fles3.JPG", aspect: 0.8)),
+    ("q4 leidsche fles1.JPG", (path: "q4 leidsche fles2.JPG", aspect: 0.8)),
+  ),
+)
+
+
+#fotopage(
+  title: "Dies",
+  photos: (
+    ((path: "q3 receptie1.jpg", aspect: 1), "q3 receptie2.jpg"),
+    ((path: "q4 dies bbq1.JPG", aspect: 1), (path: "q4 dies bbq2.JPG", aspect: 1)),
+    ("q4 dies bbq3.JPG", "q4 dies bbq4.JPG", "q4 dies bbq5.JPG"),
+    ((path: "q4 dies bbq6.JPG", aspect: 1), "q4 dies bbq7.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "LabDance",
+  photos: (
+    (path: "q4 jabo uitreiking1.JPG", aspect: 1.1),
+    ("q4 jabo uitreiking3.JPG", "q4 jabo uitreiking4.JPG"),
+    ("q4 jabo uitreiking6.JPG", "q4 jabo uitreiking7.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "Jaarboek Uitreiking",
+  photos: (
+    ("q4 jabo uitreiking9.JPG", "q4 jabo uitreiking11.JPG"),
+    ("q4 jabo uitreiking12.JPG", "q4 jabo uitreiking14.JPG"),
+    ("q4 jabo uitreiking15.JPG", "q4 jabo uitreiking10.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "Ereledenborrel",
+  photos: (
+    ("q4 ereledenborrel1.JPG", "q4 ereledenborrel2.JPG", "q4 ereledenborrel5.JPG"),
+    ("q4 ereledenborrel3.JPG", "q4 ereledenborrel6.JPG"),
+    ("q4 ereledenborrel7.JPG", "q4 ereledenborrel8.JPG", "q4 ereledenborrel9.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "Nightlife",
+  photos: (
+    ("q4 nightlife24.JPG", "q4 nightlife.jpg"),
+    ("q4 nightlife23.JPG", "q4 nightlife22.JPG"),
+    ("q4 nightlife25.JPG", "q4 nightlife26.JPG"),
+    ("q4 nightlife27.JPG", "q4 nightlife28.JPG"),
+  ),
+)
+
+#fotopage(
+  title: "Landelijk Besturen Gala",
+  photos: (
+    ("q4 lbg1.JPG", "q4 lbg2.JPG"),
+    ("q4 lbg3.JPG", "q4 lbg4.JPG", "q4 lbg5.JPG"),
+    ("q4 lbg6.JPG", "q4 lbg7.JPG", "q4 lbg8.JPG"),
+    ("q4 lbg9.JPG", "q4 lbg10.JPG"),
+  ),
+)
+
+#fotopage(
   title: "Escalala bij de Belvedere",
   photos: (
     ("q4 belvedere2.JPG", "q4 belvedere3.JPG"),
@@ -466,79 +547,7 @@
   ),
 )
 
-#fotopage(
-  title: "Dies",
-  photos: (
-    ((path: "q3 receptie1.jpg", aspect: 1), "q3 receptie2.jpg"),
-    ((path: "q4 dies bbq1.JPG", aspect: 1), (path: "q4 dies bbq2.JPG", aspect: 1)),
-    ("q4 dies bbq3.JPG", "q4 dies bbq4.JPG", "q4 dies bbq5.JPG"),
-    ((path: "q4 dies bbq6.JPG", aspect: 1), "q4 dies bbq7.JPG"),
-  ),
-)
 
-#fotopage(
-  title: "EESTEC en Heineken",
-  photos: (
-    ("q4 eestec2.JPG", "q4 eestec3.JPG"),
-    ((path: "q4 heineken1.JPG", aspect: 0.5), (path: "q4 heineken2.JPG", aspect: 0.6)),
-  ),
-)
-
-#fotopage(
-  title: "Ereledenborrel",
-  photos: (
-    ("q4 ereledenborrel1.JPG", "q4 ereledenborrel2.JPG", "q4 ereledenborrel5.JPG"),
-    ("q4 ereledenborrel3.JPG", "q4 ereledenborrel6.JPG"),
-    ("q4 ereledenborrel7.JPG", "q4 ereledenborrel8.JPG", "q4 ereledenborrel9.JPG"),
-  ),
-)
-
-#fotopage(
-  title: "Jaarboek Uitreiking",
-  photos: (
-    ("q4 jabo uitreiking9.JPG", "q4 jabo uitreiking11.JPG"),
-    ("q4 jabo uitreiking12.JPG", "q4 jabo uitreiking14.JPG"),
-    ("q4 jabo uitreiking15.JPG", "q4 jabo uitreiking10.JPG"),
-  ),
-)
-
-#fotopage(
-  title: "LabDance",
-  photos: (
-    (path: "q4 jabo uitreiking1.JPG", aspect: 1.1),
-    ("q4 jabo uitreiking3.JPG", "q4 jabo uitreiking4.JPG"),
-    ("q4 jabo uitreiking6.JPG", "q4 jabo uitreiking7.JPG"),
-  ),
-)
-
-#fotopage(
-  title: "Landelijk Besturen Gala",
-  photos: (
-    ("q4 lbg1.JPG", "q4 lbg2.JPG"),
-    ("q4 lbg3.JPG", "q4 lbg4.JPG", "q4 lbg5.JPG"),
-    ("q4 lbg6.JPG", "q4 lbg7.JPG", "q4 lbg8.JPG"),
-    ("q4 lbg9.JPG", "q4 lbg10.JPG"),
-  ),
-)
-
-#fotopage(
-  title: "Leidsche Fles Poging 2",
-  photos: (
-    ("q4 leidsche fles6.JPG", "q4 leidsche fles7.JPG"),
-    ("q4 leidsche fles4.JPG", (path: "q4 leidsche fles3.JPG", aspect: 0.8)),
-    ("q4 leidsche fles1.JPG", (path: "q4 leidsche fles2.JPG", aspect: 0.8)),
-  ),
-)
-
-#fotopage(
-  title: "Nightlife",
-  photos: (
-    ("q4 nightlife24.JPG", "q4 nightlife.jpg"),
-    ("q4 nightlife23.JPG", "q4 nightlife22.JPG"),
-    ("q4 nightlife25.JPG", "q4 nightlife26.JPG"),
-    ("q4 nightlife27.JPG", "q4 nightlife28.JPG"),
-  ),
-)
 
 #fotopage(
   title: "Misc Q4",
