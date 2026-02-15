@@ -3,7 +3,7 @@
 #set page(
   width: 250mm,
   height: 180mm,
-  margin: (inside: 30pt, outside: 16pt, top: 18pt, bottom: 12pt),
+  margin: (inside: 42pt, outside: 16pt, top: 20pt, bottom: 12pt),
 )
 #set text(font: "Source Sans Pro", size: 14pt)
 
@@ -11,6 +11,7 @@
 
 #fotopage(
   title: "Overdracht",
+  onderschrift: "Bakjacht, kennissessies en horizontaal leven.",
   photos: (
     ("q0 bakjacht.jpg", "q0 bakjacht2.jpg"),
     ("q0 inwerk0.jpg", "q0 inwerk1.jpg"),
@@ -20,6 +21,7 @@
 
 #fotopage(
   title: "Overdracht",
+  onderschrift: "Je bestuursgenoten mag je omgooien, je toren niet.",
   photos: (
     ("q0 overdracht223.jpg", "q0 overdrachtd1.jpg"),
     ("q0 overdrachtd3.jpg", "q0 overdrachtf4.jpg"),
@@ -29,7 +31,8 @@
 
 #fotopage(
   title: "EOW ",
-  onderschrift: "Nullos ontvangen met kip",
+  onderschrift: "Hoi zeggen teggen alle nieuwe ETVers.
+  Wouter zat op veilige afstand. ",
   photos: (
     ("EOW gezellig.jpg", (path: "EOW kip.jpg", aspect: 1)),
     ("EOW houter.jpg", "EOW houter2.jpg"),
@@ -39,6 +42,7 @@
 
 #fotopage(
   title: "Eten Met Life",
+  onderschrift: "Geef het een dag in het nieuwe jaar.",
   photos: (
     ("q1 eten met life.JPG", "q1 eten met life6.JPG"),
     ((path: "q1 eten met life4.JPG", aspect: 1.2), "q2 eten met life 3.JPG"),
@@ -49,6 +53,7 @@
 
 #fotopage(
   title: "Stoeien in de BK",
+  onderschrift: "Zie ook het appel-filmpje.",
   photos: (
     ("q1 eten met curius.JPG", "q1 eten met svr.JPG"),
     ("q1 eten met svr1.JPG", (path: "q1 eten met svr2.JPG", aspect: 1)),
@@ -59,14 +64,16 @@
 
 #fotopage(
   title: "Constitutie",
+  onderschrift: "Officieel verantwoordelijk tuig",
   photos: (
     ("q1 wisselingzang.jpg", "q1 constitutiediner1.jpg"),
-    ("q1 diner.jpg", "q1 constitutiediner2.jpg"),
+    ("q1 diner.jpg", (path: "q1 constitutiediner2.jpg", aspect: 0.5)),
   ),
 )
 
 #fotopage(
   title: "CoBos in Leiden",
+  onderschrift: "Officieel onverantwoord tuig",
   photos: (
     ("q1 coboleiden.jpg", "q1 coboleiden2.jpg"),
     ("q1 coboleiden23.jpg", "q1 coboleiden3.jpg"),
@@ -74,13 +81,9 @@
   ),
 )
 
-
-
-
-
 #fotopage(
   title: "CoBo's met A Eskwadraat en ECU 92",
-  onderschrift: "Terugkomen met al je tanden is een uitdaging.",
+  onderschrift: "Terugkomen met al je tanden is de uitdaging.",
   photos: (
     ("q1 cobo a eskwadraat2.JPG", "q1 cobo aeskwadraat1.JPG"),
     (path: "q1 cobo ecu.JPG", aspect: 1.2),
