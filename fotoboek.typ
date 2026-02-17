@@ -7,7 +7,13 @@
 )
 #set text(font: "Source Sans Pro", size: 14pt)
 
-#titlepage("Fotoboek 146", "Het evenwichtige bestuur", "groep const liggend.jpg")
+// dingen die er niet per se in staan
+// lunchlezingen: niet echt leuk
+// RD: geen leuke fotos voor in dit boek.
+// lasergamen foto: niet super belangrijk
+// rally fotos: geen zim om uit te zoeken
+// symposium: heeft alleen matige fotos
+
 
 #fotopage(
   title: "Overdracht",
@@ -598,8 +604,7 @@
 
 #fotopage(
   title: "William Hunter",
-  bovenschrift: "President der 146 ",
-  onderschrift: "Dit is een onderschrift.",
+  onderschrift: "Shit waar is mijn brie.",
   photos: (
     ("1 netjes.JPG", (path: "1 broodje.jpg", aspect: 1)),
     ((path: "1 kersttram.jpg", aspect: 0.8), (path: "1 treinslaap.JPG", aspect: 0.8)),
@@ -695,7 +700,7 @@
   title: "Thomas Roos",
   photos: (
     ("5 ik pakje.JPG", "5 kom hier.JPG"),
-    ("5 laat me.JPG", "5 loekkie close.JPG"),
+    ((path: "5 laat me.JPG", aspect: 1), (path: "5 loekkie close.JPG", aspect: 1)),
     ("5 nom nom.JPG", "5 slaapje.jpg"),
     ("5 tong.JPG", "5 vies tongetje.JPG", "5 brakkie.jpg"),
   ),

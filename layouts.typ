@@ -1,9 +1,7 @@
-#import "@preview/oasis-align:0.3.3": *
 #import "@preview/tessera:0.1.0": *
 #import "fotos.typ": fotos
 
 #let used-photos-state = state("used-photos", ())
-
 #let high_quality = sys.inputs.at("HQ", default: "false")
 #let photos-dir = if high_quality == "false" { "thumbs" } else { "fotos" }
 #let photo = name => photos-dir + "/" + name
@@ -31,26 +29,6 @@
   }
 }
 
-
-// Title page layout
-#let titlepage(title, subtitle, photo_path) = [
-  #used-photos-state.update(list => (..list, photo_path))
-  #block(height: 100%)[
-    #align(center + horizon)[
-      #grid(
-        columns: 1fr, rows: (4fr, 2fr), gutter: 2cm, align: center,
-        box(image(photo(photo_path))),
-        align(center)[
-          #text(size: 36pt, weight: "bold")[#title]\
-
-          #text(size: 18pt)[#subtitle]
-        ]
-      )
-    ]
-  ]
-  #pagebreak()
-]
-
 #let fotopage(
   title: none,
   bovenschrift: none,
@@ -58,7 +36,7 @@
   photos: (),
   gutter: 6pt,
 ) = {
-  pagebreak()
+  pagebreak(weak: true)
   let map-photo = item => {
     if type(item) == str {
       image(photo(item))
