@@ -93,6 +93,7 @@
 
 #fotopage(
   title: "IFF Delft",
+  onderschrift: "Hier hangt een luchtje aan.",
   photos: (
     ((path: "q1 iff 1.JPG", aspect: 1), "q1 iff 2.JPG", "q1 iff 3.JPG"),
     ("q1 iff 5.JPG", "q1 iff 6.JPG"),
@@ -102,15 +103,17 @@
 
 #fotopage(
   title: "IFF Delft",
+  onderschrift: "Escalaren kan je leren. ",
   photos: (
     ("q1 iff 10.JPG", "q1 iff 11.JPG", "q1 iff 14.JPG"),
-    ("q1 iff 13.JPG", "q1 iff 12.JPG"),
+    ("q1 iff 13.JPG", (path: "q1 iff 12.JPG", aspect: 0.6)),
     ("q1 iff 15.JPG", (path: "q1 iff 16.JPG", aspect: 1.1)),
   ),
 )
 
 #fotopage(
   title: "Champagneborrel",
+  onderschrift: "Bedankt Momo voor het bed en Yes! voor de blauwe kots.",
   photos: (
     ((path: "q1 champagneborrel 1.JPG", aspect: 0.7), "q1 champagneborrel 4.JPG"),
     ("q1 champagneborrel 6.JPG", (path: "q1 champagneborrel 2.JPG", aspect: 0.8)),
@@ -119,7 +122,9 @@
 )
 
 #fotopage(
-  title: "Grondboren",
+  title: "NSK Grondboren",
+  onderschrift: "De grondboor is ontworpen om in een kever te passen.
+  De bak is ontworpen om tuig te vervoeren. ",
   photos: (
     ("q1 grondboren2.JPG", (path: "q1 grondboren1.JPG", aspect: 1)),
     (path: "q1 grondboren3.JPG", aspect: 1),
@@ -138,6 +143,7 @@
 
 #fotopage(
   title: "Emile Feestje",
+  onderschrift: "",
   photos: (
     ("q1 emile feest 1.JPG", "q1 emile feest 10.JPG", "q1 emile feest 11.JPG"),
     ("q1 emile feest 12.JPG", "q1 emile feest 2.JPG", "q1 emile feest 3.JPG"),
