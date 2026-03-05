@@ -2,7 +2,7 @@
 
 #set page(
   width: 250mm,
-  height: 180mm,
+  height: 176mm,
   margin: (inside: 42pt, outside: 16pt, top: 20pt, bottom: 12pt),
 )
 #set text(font: "Source Sans Pro", size: 14pt)
@@ -36,8 +36,8 @@
 )
 
 #fotopage(
-  title: "EOW ",
-  onderschrift: "Hoi zeggen teggen alle nieuwe ETVers.
+  title: "EOW",
+  onderschrift: "Hoi zeggen tegen alle nieuwe ETVers.
   Wouter zat op veilige afstand. ",
   photos: (
     ("EOW gezellig.jpg", (path: "EOW kip.jpg", aspect: 1)),
@@ -72,7 +72,7 @@
   title: "Constitutie",
   onderschrift: "Officieel verantwoordelijk tuig",
   photos: (
-    ("q1 wisselingzang.jpg", "q1 constitutiediner1.jpg"),
+    ((path: "q1 wisselingzang.jpg", aspect: 0.5), "q1 constitutiediner1.jpg"),
     ("q1 diner.jpg", (path: "q1 constitutiediner2.jpg", aspect: 0.5)),
   ),
 )
@@ -81,7 +81,7 @@
   title: "CoBos in Leiden",
   onderschrift: "Officieel onverantwoord tuig",
   photos: (
-    ("q1 coboleiden.jpg", "q1 coboleiden2.jpg"),
+    ((path: "q1 coboleiden.jpg", aspect: 0.7), "q1 coboleiden2.jpg"),
     ("q1 coboleiden23.jpg", "q1 coboleiden3.jpg"),
     ("q1 brasalliantie.jpg", "q1 inbreken.jpg"),
   ),
@@ -102,7 +102,7 @@
   onderschrift: "Hier hangt een luchtje aan.",
   photos: (
     ((path: "q1 iff 1.JPG", aspect: 1), "q1 iff 2.JPG", "q1 iff 3.JPG"),
-    ("q1 iff 5.JPG", "q1 iff 6.JPG"),
+    ((path: "q1 iff 5.JPG", aspect: 0.6), "q1 iff 6.JPG"),
     ("q1 iff 7.JPG", "q1 iff 8.JPG"),
   ),
 )
@@ -112,7 +112,7 @@
   onderschrift: "Escalaren kan je leren. ",
   photos: (
     ("q1 iff 10.JPG", "q1 iff 11.JPG", "q1 iff 14.JPG"),
-    ("q1 iff 13.JPG", (path: "q1 iff 12.JPG", aspect: 0.6)),
+    ((path: "q1 iff 13.JPG", aspect: 0.6), (path: "q1 iff 12.JPG", aspect: 0.6)),
     ("q1 iff 15.JPG", (path: "q1 iff 16.JPG", aspect: 1.1)),
   ),
 )
@@ -121,7 +121,7 @@
   title: "Champagneborrel",
   onderschrift: "Bedankt Momo voor het bed en Yes! voor de blauwe kots.",
   photos: (
-    ((path: "q1 champagneborrel 1.JPG", aspect: 0.7), "q1 champagneborrel 4.JPG"),
+    ((path: "q1 champagneborrel 1.JPG", aspect: 0.5), "q1 champagneborrel 4.JPG"),
     ("q1 champagneborrel 6.JPG", (path: "q1 champagneborrel 2.JPG", aspect: 0.8)),
     ("q1 champagneborrel 7.JPG", "q1 champagneborrel 3.JPG", "q1 champagnne.jpg"),
   ),
@@ -144,7 +144,7 @@
   photos: (
     ("q1 alcmaeon 2.JPG", "q1 alcmaeon 1.JPG"),
     ("q1 alcmeauon.JPG", "q1 alcmaeon 4.JPG"),
-    ("q1 alcmaeon 6.JPG", "q1 alcmaeon 3.JPG"),
+    ("q1 alcmaeon 6.JPG", (path: "q1 alcmaeon 3.JPG", aspect: 0.5)),
   ),
 )
 
@@ -198,7 +198,11 @@
 #fotopage(
   title: "Q1 MISC",
   photos: (
-    ((path: "Q1 doe de wouter.JPG"), (path: "Q1 masterkickoff.JPG", aspect: 0.4), "q1 vlek halen.jpg"),
+    (
+      (path: "Q1 doe de wouter.JPG"),
+      (path: "Q1 masterkickoff.JPG", aspect: 0.4),
+      (path: "q1 vlek halen.jpg", aspect: 0.5),
+    ),
     (
       (path: "q1 bestuurskamer.JPG", aspect: 0.6),
       (path: "q1 diplomauitreiking.jpg", aspect: 0.5),
@@ -225,7 +229,7 @@
     ("q2 14x diner 1.JPG", "q2 14x diner 10.JPG", "q2 14x diner 11.JPG"),
     ("q2 14x diner 2.JPG", "q2 14x diner 3.JPG", "q2 14x diner 4.JPG"),
     ("q2 14x diner 5.JPG", "q2 14x diner 6.JPG", "q2 14x diner 7.JPG"),
-    ("q2 14x diner 8.JPG", "q2 14x diner 9.JPG"),
+    ("q2 14x diner 8.JPG", (path: "q2 14x diner 9.JPG", aspect: 1)),
   ),
 )
 
@@ -241,7 +245,7 @@
 
 #fotopage(
   title: "VVTP Gala",
-  onderschrift: "Ideeen opdoen voor nieuwe commissies bij de ETV .
+  onderschrift: "Ideeën opdoen voor nieuwe commissies bij de ETV .
   Zeer onder de indruk van pizzabezorger met scooter de dansvloer oprijdt.",
   photos: (
     ("q2 big doinks.jpg", "q2 vvtp gala1.JPG"),
@@ -251,7 +255,7 @@
 )
 
 #fotopage(
-  title: "CoDe  Feestje",
+  title: "CoDe Feestje",
   onderschrift: "50/50 verantwoordelijk voor schade in het mannentoilet.",
   photos: (
     ("q2 feestje code1.JPG", "q2 feestje code10.JPG", "q2 feestje code2.JPG"),
@@ -266,7 +270,7 @@
   title: "Kerst",
   onderschrift: "De beste wensen!",
   photos: (
-    ("q2 kerst.jpg", (path: "q2 kerst3zittend.JPG", aspect: 0.5)),
+    ("q2 kerst.jpg", (path: "q2 kerst3zittend.JPG", aspect: 0.4)),
     ("q2 kerstman.JPG", "q2 kerstmetthom.JPG"),
   ),
 )
@@ -288,7 +292,7 @@
     ("q2 wispo groep.jpg", (path: "q2 wispo.jpg", aspect: 0.5), "q2 wispo22.jpg"),
     ((path: "q2 wispo21.jpg", aspect: 0.8), "q2 wispo32.jpg"),
     (
-      (path: "q2 wispo23.jpg", aspect: 0.5),
+      (path: "q2 wispo23.jpg", aspect: 0.4),
       (path: "q2 wispo31.jpg", aspect: 0.3),
       (path: "q2 wispo33.jpg", aspect: 0.6),
     ),
@@ -401,7 +405,7 @@
 #fotopage(
   title: "BEVACO",
   gutter: 3pt,
-  onderschrift: "Zo als je ziet is er hard gewerkt de afgelopen maanden.
+  onderschrift: "Zoals je ziet is er hard gewerkt de afgelopen maanden.
   Tijd voor een weekje bijkomen in Corsica.",
   photos: (
     ("bevaco_00.png", "bevaco_01.png", "bevaco_02.png"),
@@ -415,7 +419,7 @@
   title: "BEVACO",
   gutter: 3pt,
   onderschrift: "Eindelijk andere dingen doen, zoals constant samen zijn.
-  Zelfs bier werd stop gezet. Echter wel om meer wijn te nuttingen. ",
+  Zelfs bier werd stop gezet. Echter wel om meer wijn te nuttigen. ",
   photos: (
     ("bevaco_12.png", "bevaco_13.png", "bevaco_14.png"),
     ("bevaco_15.png", "bevaco_16.png", "bevaco_17.png"),
@@ -464,7 +468,7 @@
 #fotopage(
   title: "BEVACO",
   gutter: 3pt,
-  onderschrift: "Op tijs liggen? Je kan net zo goed op een steen gaan liggen.",
+  onderschrift: "Op Tijs liggen? Je kan net zo goed op een steen gaan liggen.",
   photos: (
     ("bevaco_66.png", "bevaco_67.png", "bevaco_68.png"),
     ("bevaco_69.png", "bevaco_70.png", "bevaco_71.png"),
@@ -487,7 +491,7 @@
 
 #fotopage(
   title: "Schaduw DDBDBDB",
-  onderschrift: "Gewelidg idee: extra DDB, maar dan ongezellig.",
+  onderschrift: "Geweldig idee: extra DDB, maar dan ongezellig.",
   photos: (
     ("q3 schaduw dddbdb1.JPG", "q3 schaduw dddbdb2.JPG"),
     ("q3 schaduw dddbdb3.JPG", "q3 schaduw dddbdb4.JPG"),
@@ -601,8 +605,8 @@
   title: "Brunel Dag",
   onderschrift: "Een lichte bodem leggen voor DDB 4",
   photos: (
-    ((path: "q4 brunel dag1.jpg", aspect: 0.9), (path: "q4 brunel dag2.jpg", aspect: 1.1)),
-    ((path: "q4 brunel.jpg", aspect: 0.5), (path: "q4 brunel2.jpg", aspect: 0.4)),
+    ((path: "q4 brunel dag1.jpg", aspect: 0.8), (path: "q4 brunel dag2.jpg", aspect: 1.1)),
+    ((path: "q4 brunel.jpg", aspect: 0.4), (path: "q4 brunel2.jpg", aspect: 0.4)),
   ),
 )
 
@@ -696,7 +700,7 @@
   title: "Wouter Kayser",
   onderschrift: "Daar komt hij weer met vijf straaljagers.",
   photos: (
-    ((path: "3 aangeschoten.JPG", aspect: 1.4), "3 chuchu.jpg"),
+    ((path: "3 aangeschoten.JPG", aspect: 1.2), "3 chuchu.jpg"),
     ("3 dansen.JPG", "3 fijnproever.JPG", "3 gala dansen.JPG"),
     ((path: "3 genoeg gehad.JPG", aspect: 0.5), (path: "3 hobby.JPG", aspect: 0.7), "3 huhh.JPG"),
     ("3 ikkk2.JPG", (path: "3 kapit.JPG", aspect: 1.6)),
@@ -729,7 +733,7 @@
 
 #fotopage(
   title: "Karen van der Werff",
-  onderschrift: "Gedurende het jaar een heeft zij een gevaarlijke fascinatie voor tequila ontwikkelt.",
+  onderschrift: "Gedurende het jaar heeft zij een gevaarlijke fascinatie voor tequila ontwikkeld.",
   photos: (
     ("4 ice.JPG", "4 kdfrn.JPG", "4 kerstcloseup.JPG"),
     ("4 kranen.JPG", "4 omhoog.JPG", "4 roller.JPG"),
