@@ -47,6 +47,16 @@
 )
 
 #fotopage(
+  title: "EOW",
+  onderschrift: "Het zijn er best wel veel.",
+  photos: (
+    ("q1 eow2 1.jpg", "q1 eow2 2.jpg", "q1 eow2 3.jpg"),
+    ("q1 eow2 4.jpg", "q1 eow2 5.jpg", "q1 eow2 6.jpg"),
+    ("q1 eow2 8.jpg", "q1 eow2 9.jpg"),
+  ),
+)
+
+#fotopage(
   title: "Eten Met Life",
   onderschrift: "Geef het een dag in het nieuwe jaar.",
   photos: (
@@ -65,6 +75,15 @@
     ("q1 eten met svr1.JPG", (path: "q1 eten met svr2.JPG", aspect: 1)),
     ((path: "q1 eten met svr3.JPG", aspect: 1), (path: "q1 eten met svr4.JPG", aspect: 1)),
     ("q1 thomas slaap met houter.jpg", "q0 thomas slaap1.jpg"),
+  ),
+)
+#fotopage(
+  title: "Installatie 146",
+  onderschrift: "Is dit wel een slim idee?",
+  photos: (
+    ((path: "q1 installatie2 1.jpg", aspect: 1), (path: "q1 installatie2 2.jpg", aspect: 1)),
+    ((path: "q1 installatie2 3.jpg", aspect: 1), (path: "q1 installatie2 4.jpg", aspect: 1)),
+    (path: "q1 installatie2 5.jpg", aspect: 1.5),
   ),
 )
 
@@ -200,15 +219,15 @@
   photos: (
     (
       (path: "Q1 doe de wouter.JPG"),
-      (path: "Q1 masterkickoff.JPG", aspect: 0.4),
-      (path: "q1 vlek halen.jpg", aspect: 0.5),
-    ),
-    (
-      (path: "q1 bestuurskamer.JPG", aspect: 0.6),
-      (path: "q1 diplomauitreiking.jpg", aspect: 0.5),
+      (path: "q1 vlek halen.jpg"),
       "q1 coboenschede.jpg",
     ),
-    ((path: "q1 ehbotraining.jpg", aspect: 0.8), "q1 ijsje.jpg", "q1 kale wouter2.jpg"),
+    (
+      (path: "q1 ehbotraining.jpg"),
+      (path: "q1 diplomauitreiking.jpg", aspect: 1.2),
+    ),
+    ("q1 ijsje.jpg", "q1 kale wouter2.jpg", (path: "q1 bestuurskamer.JPG")),
+    ("av1.jpg", (path: "Q1 masterkickoff.JPG", aspect: 1)),
   ),
 )
 
@@ -306,7 +325,7 @@
     ("q2 bak werken.jpg", (path: "q2 biertje doen.JPG", aspect: 1), "q2 bk stoeien.jpg"),
     ("q2 dromenland 1.JPG", (path: "q2 dromenland 2.JPG", aspect: 1), "q2 dromenland 3.JPG"),
     ("q2 kobuswissel.JPG", "q2 luxe voor kraan.jpg", "q2 slav squad.JPG"),
-    ("q2 snackkie.jpg", "q2 thomice.jpg", "q2 treinen.jpg"),
+    ((path: "av2.JPG", aspect: 1), "q2 thomice.jpg", "q2 treinen.jpg"),
     ("q2 verenigingsverzamelaar.jpg", (path: "q2 verenigingsverzamelaar2.jpg", aspect: 1), "q2 VIB gala.jpg"),
   ),
 )
@@ -502,8 +521,9 @@
 #fotopage(
   title: "Q3 MISC",
   photos: (
-    ((path: "bevaco.JPG", aspect: 0.5), "q3 misc2.jpg"),
-    ((path: "q3 misc3.jpg", aspect: 0.5), "q3 electrip.JPG"),
+    ((path: "bevaco.JPG", aspect: 1), (path: "q3 misc2.jpg", aspect: 1.2)),
+    ((path: "q3 misc3.jpg", aspect: 1), "q3 electrip.JPG"),
+    (path: "av3.JPG", aspect: 1),
   ),
 )
 
@@ -624,7 +644,7 @@
 )
 
 #fotopage(
-  title: "Q5 en Q6?",
+  title: "Q5 en Q6",
   onderschrift: "Het feestje is nog lang niet klaar.",
   photos: (
     ("q5 eow1.jpg", "q5 eow2.jpg"),
