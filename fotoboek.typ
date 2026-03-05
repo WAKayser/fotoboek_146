@@ -7,7 +7,53 @@
 )
 #set text(font: "Source Sans Pro", size: 14.6pt)
 
-// todo: constitutie pagina met beschrijving enzo
+#align(center)[
+  #text(size: 28pt, weight: "bold", baseline: 20pt)[Het Evenwichtige Bestuur]
+]
+#align(center)[
+  #text(size: 14.6pt, style: "italic")[Respice, adspice, prospice]
+]
+#v(3em)
+#block(breakable: true)[
+  #grid(
+    columns: (0.8fr, 1fr),
+    gutter: 1em,
+
+    [
+      #align(horizon)[
+        #image(photo("groep const zoom.jpg"), width: 100%)
+      ]
+    ],
+    [
+      #align(horizon)[
+        #align(left)[
+          #text(size: 16pt, weight: "semibold")[12 september 2017 - 11 september 2018]
+        ]
+        #align(left)[
+          #text(size: 14.6pt)[
+            Het 146e Bestuur der Electrotechnische Vereeniging heeft zich als volgt geconstitueerd:
+          ]
+        ]
+        #align(left)[
+          #text(size: 14.6pt)[
+            William Hunter _President_
+
+            Tijs Moree _Secretaris_
+
+            Wouter Kayser _Thesaurier_
+
+            Karen van der Werff _Commissaris Extern_
+
+            Thomas Roos _Commissaris Onderwijs & Vice-President_
+
+          ]
+        ]
+        #v(0.5em)
+
+      ]
+    ],
+  )
+]
 
 #fotopage(
   "Overdracht",

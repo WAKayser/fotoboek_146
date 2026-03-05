@@ -208,6 +208,7 @@
   "EOW tijs zingen.jpg",
   "EWI.JPG",
   "groep const liggend.jpg",
+  "groep const zoom.jpg",
   "groep const.jpg",
   "jonge bob.JPG",
   "jonge lotte.JPG",
