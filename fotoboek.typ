@@ -3,21 +3,16 @@
 #set page(
   width: 250mm,
   height: 176mm,
-  margin: (inside: 42pt, outside: 16pt, top: 20pt, bottom: 12pt),
+  margin: (inside: 44pt, outside: 20pt, top: 24pt, bottom: 14.6pt),
 )
-#set text(font: "Source Sans Pro", size: 14pt)
+#set text(font: "Source Sans Pro", size: 14.6pt)
 
-// dingen die er niet per se in staan
-// lunchlezingen: niet echt leuk
-// RD: geen leuke fotos voor in dit boek.
-// lasergamen foto: niet super belangrijk
-// rally fotos: geen zim om uit te zoeken
-// symposium: heeft alleen matige fotos
-
+// todo: constitutie pagina met beschrijving enzo
 
 #fotopage(
-  title: "Overdracht",
+  "Overdracht",
   onderschrift: "Bakjacht, kennissessies en horizontaal leven.",
+  datum: "Zomer 2017",
   photos: (
     ("q0 bakjacht.jpg", "q0 bakjacht2.jpg"),
     ("q0 inwerk0.jpg", "q0 inwerk1.jpg"),
@@ -26,8 +21,9 @@
 )
 
 #fotopage(
-  title: "Overdracht",
+  "Overdracht",
   onderschrift: "Je bestuursgenoten mag je omgooien, je toren niet.",
+  datum: "Zomer 2017",
   photos: (
     ("q0 overdracht223.jpg", "q0 overdrachtd1.jpg"),
     ("q0 overdrachtd3.jpg", "q0 overdrachtf4.jpg"),
@@ -36,9 +32,10 @@
 )
 
 #fotopage(
-  title: "EOW",
+  "EOW",
+  datum: "17-20 augustus",
   onderschrift: "Hoi zeggen tegen alle nieuwe ETVers.
-  Wouter zat op veilige afstand. ",
+  Wouter zat op veilige afstand.",
   photos: (
     ("EOW gezellig.jpg", (path: "EOW kip.jpg", aspect: 1)),
     ("EOW houter.jpg", "EOW houter2.jpg"),
@@ -47,8 +44,9 @@
 )
 
 #fotopage(
-  title: "EOW",
+  "EOW",
   onderschrift: "Het zijn er best wel veel.",
+  datum: "17-20 augustus",
   photos: (
     ("q1 eow2 1.jpg", "q1 eow2 2.jpg", "q1 eow2 3.jpg"),
     ("q1 eow2 4.jpg", "q1 eow2 5.jpg", "q1 eow2 6.jpg"),
@@ -57,8 +55,9 @@
 )
 
 #fotopage(
-  title: "Eten Met Life",
+  "Eten Met Life",
   onderschrift: "Geef het een dag in het nieuwe jaar.",
+  datum: "5 september",
   photos: (
     ("q1 eten met life.JPG", "q1 eten met life6.JPG"),
     ((path: "q1 eten met life4.JPG", aspect: 1.2), "q2 eten met life 3.JPG"),
@@ -68,8 +67,9 @@
 
 
 #fotopage(
-  title: "Stoeien in de BK",
+  "Stoeien in de BK",
   onderschrift: "Zie ook het appel-filmpje.",
+  datum: "september",
   photos: (
     ("q1 eten met curius.JPG", "q1 eten met svr.JPG"),
     ("q1 eten met svr1.JPG", (path: "q1 eten met svr2.JPG", aspect: 1)),
@@ -78,8 +78,9 @@
   ),
 )
 #fotopage(
-  title: "Installatie 146",
+  "Installatie 146",
   onderschrift: "Is dit wel een slim idee?",
+  datum: "12 september",
   photos: (
     ((path: "q1 installatie2 1.jpg", aspect: 1), (path: "q1 installatie2 2.jpg", aspect: 1)),
     ((path: "q1 installatie2 3.jpg", aspect: 1), (path: "q1 installatie2 4.jpg", aspect: 1)),
@@ -88,8 +89,9 @@
 )
 
 #fotopage(
-  title: "Constitutie",
+  "Constitutie",
   onderschrift: "Officieel verantwoordelijk tuig",
+  datum: "12 september",
   photos: (
     ((path: "q1 wisselingzang.jpg", aspect: 0.5), "q1 constitutiediner1.jpg"),
     ("q1 diner.jpg", (path: "q1 constitutiediner2.jpg", aspect: 0.5)),
@@ -97,8 +99,9 @@
 )
 
 #fotopage(
-  title: "CoBos in Leiden",
+  "CoBos in Leiden",
   onderschrift: "Officieel onverantwoord tuig",
+  datum: "september",
   photos: (
     ((path: "q1 coboleiden.jpg", aspect: 0.7), "q1 coboleiden2.jpg"),
     ("q1 coboleiden23.jpg", "q1 coboleiden3.jpg"),
@@ -107,8 +110,9 @@
 )
 
 #fotopage(
-  title: "CoBo's met A Eskwadraat en ECU 92",
+  "CoBo's met A Eskwadraat en ECU 92",
   onderschrift: "Terugkomen met al je tanden is de uitdaging.",
+  datum: "21 en 23 september",
   photos: (
     ("q1 cobo a eskwadraat2.JPG", "q1 cobo aeskwadraat1.JPG"),
     (path: "q1 cobo ecu.JPG", aspect: 1.2),
@@ -117,8 +121,9 @@
 )
 
 #fotopage(
-  title: "IFF Delft",
+  "IFF Delft",
   onderschrift: "Hier hangt een luchtje aan.",
+  datum: "27 september",
   photos: (
     ((path: "q1 iff 1.JPG", aspect: 1), "q1 iff 2.JPG", "q1 iff 3.JPG"),
     ((path: "q1 iff 5.JPG", aspect: 0.6), "q1 iff 6.JPG"),
@@ -127,8 +132,9 @@
 )
 
 #fotopage(
-  title: "IFF Delft",
-  onderschrift: "Escalaren kan je leren. ",
+  "IFF Delft",
+  onderschrift: "Escalaren kan je leren.",
+  datum: "27 september",
   photos: (
     ("q1 iff 10.JPG", "q1 iff 11.JPG", "q1 iff 14.JPG"),
     ((path: "q1 iff 13.JPG", aspect: 0.6), (path: "q1 iff 12.JPG", aspect: 0.6)),
@@ -137,7 +143,8 @@
 )
 
 #fotopage(
-  title: "Champagneborrel",
+  "Champagneborrel",
+  datum: "2 oktober",
   onderschrift: "Bedankt Momo voor het bed en Yes! voor de blauwe kots.",
   photos: (
     ((path: "q1 champagneborrel 1.JPG", aspect: 0.5), "q1 champagneborrel 4.JPG"),
@@ -147,9 +154,21 @@
 )
 
 #fotopage(
-  title: "NSK Grondboren",
+  "DSK Gala",
+  datum: "8 oktober",
+  onderschrift: "Kijk uit voor de viezerikken in de bosjes.",
+  photos: (
+    ("q1 dsk gala 1.JPG", "q1 dsk gala 3.JPG", "q1 dsk gala 4.JPG"),
+    ("q1 dsk gala 5.JPG", "q1 dsk gala 6.JPG"),
+    ("q1 dsk gala 7.JPG", "q1 dsk.jpg"),
+  ),
+)
+
+#fotopage(
+  "NSK Grondboren",
+  datum: "11 oktober",
   onderschrift: "De grondboor is ontworpen om in een kever te passen.
-  De bak is ontworpen om tuig te vervoeren. ",
+  De bak is ontworpen om tuig te vervoeren.",
   photos: (
     ("q1 grondboren2.JPG", (path: "q1 grondboren1.JPG", aspect: 1)),
     (path: "q1 grondboren3.JPG", aspect: 1),
@@ -158,7 +177,8 @@
 )
 
 #fotopage(
-  title: "Alcmaeon Feestje Q1",
+  "Alcmaeon Feestje Q1",
+  datum: "18 oktober",
   onderschrift: "Rip aan de springweg.",
   photos: (
     ("q1 alcmaeon 2.JPG", "q1 alcmaeon 1.JPG"),
@@ -168,7 +188,8 @@
 )
 
 #fotopage(
-  title: "Emile Feestje",
+  "Emile Feestje",
+  datum: "19 oktober",
   onderschrift: "Laat de beesten wild gaan.",
   photos: (
     ("q1 emile feest 1.JPG", "q1 emile feest 10.JPG", "q1 emile feest 11.JPG"),
@@ -179,7 +200,20 @@
 )
 
 #fotopage(
-  title: "DDBDBDBBDB 1",
+  "Diesdeceptie en Alcmaeon Feest",
+  datum: "26 oktober",
+  onderschrift: "Bijzonder ongezellige dies met drie kratjes bier.
+  Gelukkig wel op tijd voor Kaviaar.",
+  photos: (
+    ("q3 diesdeceptie en alc feest 1.JPG", "q3 diesdeceptie en alc feest 2.JPG"),
+    ("q3 diesdeceptie en alc feest 3.JPG", "q3 diesdeceptie en alc feest 4.JPG"),
+    ("q3 diesdeceptie en alc feest 5.JPG", "q2 diesdeceptie en alc feest 6.JPG"),
+  ),
+)
+
+#fotopage(
+  "DDBDBDBBDB 1",
+  datum: "31 oktober",
   onderschrift: "Is een dikke overal het beste feestoutfit? Nee.",
   photos: (
     ((path: "q1 ddbdbdbd een 1.JPG", aspect: 0.5), "q1 ddbdbdbd een 2.JPG", "q1 ddbdbdbd een 3.JPG"),
@@ -193,19 +227,8 @@
 )
 
 #fotopage(
-  title: "DSK Gala",
-  onderschrift: "Kijk uit voor de viezerikken in de bosjes.",
-  photos: (
-    ("q1 dsk gala 1.JPG", "q1 dsk gala 3.JPG", "q1 dsk gala 4.JPG"),
-    ("q1 dsk gala 5.JPG", "q1 dsk gala 6.JPG"),
-    ("q1 dsk gala 7.JPG", "q1 dsk.jpg"),
-  ),
-)
-
-
-
-#fotopage(
-  title: "EESTEC Congress",
+  "EESTEC Congress",
+  datum: "4-11 november",
   onderschrift: "Het commissariaat is een weekje weg voor \"vergaderen\".",
   photos: (
     ("q1 eestec congress 1.JPG", "q1 eestec congress 2.JPG", "q1 eestec congress 3.JPG"),
@@ -214,8 +237,11 @@
   ),
 )
 
+
+
+
 #fotopage(
-  title: "Q1 MISC",
+  "Q1 MISC",
   photos: (
     (
       (path: "Q1 doe de wouter.JPG"),
@@ -232,7 +258,8 @@
 )
 
 #fotopage(
-  title: "Mercurius Feestje",
+  "Mercurius Feestje",
+  datum: "22 november",
   onderschrift: "Tjoek Tjoek naar Amsterdam",
   photos: (
     ("q2 mercurius 1.JPG", "q2 mercurius 2.JPG", "q2 mercurius 3.JPG"),
@@ -242,7 +269,8 @@
 )
 
 #fotopage(
-  title: "14X Diner",
+  "14X Diner",
+  datum: "24 november",
   onderschrift: "Vertrouw de thesaurier niet als hij je vraagt mee te komen.",
   photos: (
     ("q2 14x diner 1.JPG", "q2 14x diner 10.JPG", "q2 14x diner 11.JPG"),
@@ -253,7 +281,8 @@
 )
 
 #fotopage(
-  title: "Met CoDe naar DSB",
+  "Met CoDe naar DSB",
+  datum: "30 november",
   onderschrift: "Het vergaderhok was gemurderd. Hartstikke dood.",
   photos: (
     ("q2 met code naar dsb 1.JPG", "q2 met code naar dsb 2.JPG", "q2 met code naar dsb 3.JPG"),
@@ -263,7 +292,8 @@
 )
 
 #fotopage(
-  title: "VVTP Gala",
+  "VVTP Gala",
+  datum: "3 december",
   onderschrift: "Ideeën opdoen voor nieuwe commissies bij de ETV .
   Zeer onder de indruk van pizzabezorger met scooter de dansvloer oprijdt.",
   photos: (
@@ -274,7 +304,8 @@
 )
 
 #fotopage(
-  title: "CoDe Feestje",
+  "CoDe Feestje",
+  datum: "20 december",
   onderschrift: "50/50 verantwoordelijk voor schade in het mannentoilet.",
   photos: (
     ("q2 feestje code1.JPG", "q2 feestje code10.JPG", "q2 feestje code2.JPG"),
@@ -284,9 +315,9 @@
   ),
 )
 
-
 #fotopage(
-  title: "Kerst",
+  "Kerst",
+  datum: "24 december",
   onderschrift: "De beste wensen!",
   photos: (
     ("q2 kerst.jpg", (path: "q2 kerst3zittend.JPG", aspect: 0.4)),
@@ -296,16 +327,8 @@
 
 
 #fotopage(
-  title: "CoDe Gala",
-  onderschrift: "Waarom niet? Waarom niet een extra galateje pakken?",
-  photos: (
-    ((path: "q2 code gala 2.jpg", aspect: 0.8), (path: "q2 code gala 22.jpg", aspect: 0.7)),
-    "q2 code gala 3.jpg",
-  ),
-)
-
-#fotopage(
-  title: "Wispo: Risoul vet Cool",
+  "Wispo: Risoul vet Cool",
+  datum: "2-10 februari",
   onderschrift: "Tijs onervaren op de skis, Thomas onervaren met de drank.",
   photos: (
     ("q2 wispo groep.jpg", (path: "q2 wispo.jpg", aspect: 0.5), "q2 wispo22.jpg"),
@@ -319,7 +342,7 @@
 )
 
 #fotopage(
-  title: "Misc Q2",
+  "Misc Q2",
   gutter: 3pt,
   photos: (
     ("q2 bak werken.jpg", (path: "q2 biertje doen.JPG", aspect: 1), "q2 bk stoeien.jpg"),
@@ -331,18 +354,19 @@
 )
 
 #fotopage(
-  title: "Diesdeceptie en Alcmaeon Feest",
-  onderschrift: "Bijzonder ongezellige dies met drie kratjes bier.
-  Gelukkig wel op tijd voor Kaviaar.",
+  "CoDe Gala",
+  datum: "17 februari",
+  onderschrift: "Waarom niet? Waarom niet een extra galateje pakken?",
   photos: (
-    ("q3 diesdeceptie en alc feest 1.JPG", "q3 diesdeceptie en alc feest 2.JPG"),
-    ("q3 diesdeceptie en alc feest 3.JPG", "q3 diesdeceptie en alc feest 4.JPG"),
-    ("q3 diesdeceptie en alc feest 5.JPG", "q2 diesdeceptie en alc feest 6.JPG"),
+    ((path: "q2 code gala 2.jpg", aspect: 0.8), (path: "q2 code gala 22.jpg", aspect: 0.7)),
+    "q2 code gala 3.jpg",
   ),
 )
 
+
 #fotopage(
-  title: "IFF Leiden",
+  "IFF Leiden",
+  datum: "27 februari",
   onderschrift: "Het is welbekend dat Electro een Leidse studie is.
   De supergeleider is er zelfs ontdekt.",
   photos: (
@@ -354,7 +378,8 @@
 )
 
 #fotopage(
-  title: "ORAS Gala en Afstubo Bootsman",
+  "ORAS Gala en Afstubo Bootsman",
+  datum: "2 maart",
   onderschrift: "Wie wist dat de Scheveningse pier zo aftands was...",
   photos: (
     ("q3 oras en bootsman1.JPG", "q3 oras en bootsman2.JPG", "q3 oras en bootsman3.JPG"),
@@ -365,7 +390,8 @@
 )
 
 #fotopage(
-  title: "ORAS Gala en Afstubo Bootsman",
+  "ORAS Gala en Afstubo Bootsman",
+  datum: "2 maart",
   onderschrift: "Snel terug naar de (toen nog) sfeervolle /Pub.",
   photos: (
     ((path: "q2 orasgala234.jpg", aspect: 0.8), (path: "q3 orasgala23.jpg", aspect: 1.1)),
@@ -376,7 +402,8 @@
 )
 
 #fotopage(
-  title: "MEGala",
+  "MEGala",
+  datum: "23 maart",
   onderschrift: "Medisch Electro Gala?
   Laat de Kwibus XL maar komen!",
   photos: (
@@ -388,8 +415,9 @@
 )
 
 #fotopage(
-  title: "MEGala",
-  onderschrift: "Glittermeisjes zorgen voor shinende mannen. ",
+  "MEGala",
+  datum: "23 maart",
+  onderschrift: "Glittermeisjes zorgen voor shinende mannen.",
   photos: (
     ("q3 megala10.JPG", (path: "q3 megala11.JPG", aspect: 1)),
     ("q3 megala12.JPG", "q3 megala13.JPG", "q3 megala14.JPG"),
@@ -399,7 +427,8 @@
 )
 
 #fotopage(
-  title: "CoDe-ETV Cantus",
+  "CoDe-ETV Cantus",
+  datum: "29 maart",
   onderschrift: "Dat boekje is niet meer nodig met voldoende volume...",
   photos: (
     ("q3 code cantus1.JPG", "q3 code cantus2.JPG", "q3 code cantus3.JPG"),
@@ -410,8 +439,9 @@
 )
 
 #fotopage(
-  title: "Code-ETV Cantus",
-  onderschrift: "en dan bedoel ik: groot volume bier. ",
+  "Code-ETV Cantus",
+  datum: "29 maart",
+  onderschrift: "en dan bedoel ik: groot volume bier.",
   photos: (
     ("q3 code cantus11.JPG", "q3 code cantus12.JPG"),
     ("q3 code cantus14.JPG", "q3 code cantus15.JPG"),
@@ -422,7 +452,8 @@
 
 
 #fotopage(
-  title: "BEVACO",
+  "BEVACO",
+  datum: "7-15 april",
   gutter: 3pt,
   onderschrift: "Zoals je ziet is er hard gewerkt de afgelopen maanden.
   Tijd voor een weekje bijkomen in Corsica.",
@@ -435,10 +466,11 @@
 )
 
 #fotopage(
-  title: "BEVACO",
+  "BEVACO",
+  datum: "7-15 april",
   gutter: 3pt,
   onderschrift: "Eindelijk andere dingen doen, zoals constant samen zijn.
-  Zelfs bier werd stop gezet. Echter wel om meer wijn te nuttigen. ",
+  Zelfs bier werd stop gezet. Echter wel om meer wijn te nuttigen.",
   photos: (
     ("bevaco_12.png", "bevaco_13.png", "bevaco_14.png"),
     ("bevaco_15.png", "bevaco_16.png", "bevaco_17.png"),
@@ -448,7 +480,8 @@
 )
 
 #fotopage(
-  title: "BEVACO",
+  "BEVACO",
+  datum: "7-15 april",
   gutter: 3pt,
   onderschrift: "Eindelijk werd een speeltuin gevonden voor de kindjes.
   Ijsje voor Thomas, Iceje voor Karen, slurpje voor William.",
@@ -461,7 +494,8 @@
 )
 
 #fotopage(
-  title: "BEVACO",
+  "BEVACO",
+  datum: "7-15 april",
   gutter: 3pt,
   onderschrift: "Ijsbad voor dat het een trend werd.",
   photos: (
@@ -473,7 +507,8 @@
 )
 
 #fotopage(
-  title: "BEVACO",
+  "BEVACO",
+  datum: "7-15 april",
   gutter: 3pt,
   onderschrift: "Het is dan ook geen green egg, maar er kan wel een groen bestuur van eten.",
   photos: (
@@ -485,7 +520,8 @@
 )
 
 #fotopage(
-  title: "BEVACO",
+  "BEVACO",
+  datum: "7-15 april",
   gutter: 3pt,
   onderschrift: "Op Tijs liggen? Je kan net zo goed op een steen gaan liggen.",
   photos: (
@@ -497,7 +533,8 @@
 )
 
 #fotopage(
-  title: "BEVACO",
+  "BEVACO",
+  datum: "7-15 april",
   gutter: 3pt,
   onderschrift: "Leuk zo een dagje strand, als er maar niks anders strand.",
   photos: (
@@ -509,7 +546,8 @@
 )
 
 #fotopage(
-  title: "Schaduw DDBDBDB",
+  "Schaduw DDBDBDB",
+  datum: "16 april",
   onderschrift: "Geweldig idee: extra DDB, maar dan ongezellig.",
   photos: (
     ("q3 schaduw dddbdb1.JPG", "q3 schaduw dddbdb2.JPG"),
@@ -519,7 +557,7 @@
 )
 
 #fotopage(
-  title: "Q3 MISC",
+  "Q3 MISC",
   photos: (
     ((path: "bevaco.JPG", aspect: 1), (path: "q3 misc2.jpg", aspect: 1.2)),
     ((path: "q3 misc3.jpg", aspect: 1), "q3 electrip.JPG"),
@@ -528,16 +566,8 @@
 )
 
 #fotopage(
-  title: "EESTEC en Heineken",
-  photos: (
-    ("q4 eestec2.JPG", "q4 eestec3.JPG"),
-    ((path: "q4 heineken1.JPG", aspect: 0.5), (path: "q4 heineken2.JPG", aspect: 0.6)),
-  ),
-)
-
-
-#fotopage(
-  title: "Leidsche Fles Poging 2",
+  "Leidsche Fles Poging 2",
+  datum: "24 april",
   onderschrift: "Blijkbaar wel welkom, maar niet voor lang.",
   photos: (
     ("q4 leidsche fles6.JPG", "q4 leidsche fles7.JPG"),
@@ -546,9 +576,20 @@
   ),
 )
 
+#fotopage(
+  "EESTEC en Heineken",
+  datum: "mei",
+  photos: (
+    ("q4 eestec2.JPG", "q4 eestec3.JPG"),
+    ((path: "q4 heineken1.JPG", aspect: 0.5), (path: "q4 heineken2.JPG", aspect: 0.4)),
+  ),
+)
+
+
 
 #fotopage(
-  title: "Dies",
+  "Dies",
+  datum: "14 mei",
   onderschrift: "De ETV is weer een rondje om de zon.
   Tijd om de bloemetjes buiten te zetten.",
   photos: (
@@ -560,7 +601,8 @@
 )
 
 #fotopage(
-  title: "LabDance",
+  "LabDance",
+  datum: "14 mei",
   onderschrift: "Er wordt hier onderzoek gedaan naar vieze mannetjes.",
   photos: (
     (path: "q4 jabo uitreiking1.JPG", aspect: 1.1),
@@ -570,7 +612,8 @@
 )
 
 #fotopage(
-  title: "Jaarboek Uitreiking",
+  "Jaarboek Uitreiking",
+  datum: "17 mei",
   onderschrift: "Drink er snel eentje, zodat de karaoke wat minder vals klinkt.",
   photos: (
     ("q4 jabo uitreiking9.JPG", "q4 jabo uitreiking11.JPG"),
@@ -580,7 +623,8 @@
 )
 
 #fotopage(
-  title: "Ereledenborrel",
+  "Ereledenborrel",
+  datum: "1 juni",
   onderschrift: "Huldiging van 145 en viering van de verbinding.",
   photos: (
     ("q4 ereledenborrel1.JPG", "q4 ereledenborrel2.JPG", "q4 ereledenborrel5.JPG"),
@@ -590,7 +634,8 @@
 )
 
 #fotopage(
-  title: "Nightlife",
+  "Nightlife",
+  datum: "5 juni",
   onderschrift: "Dejavu! Waren we niet net nog in de Next?",
   photos: (
     ("q4 nightlife24.JPG", "q4 nightlife.jpg"),
@@ -601,7 +646,8 @@
 )
 
 #fotopage(
-  title: "Landelijk Besturen Gala",
+  "Landelijk Besturen Gala",
+  datum: "8 juni",
   onderschrift: "Daar zijn we al weer, tijd om het jaar weer rond te maken.",
   photos: (
     ("q4 lbg1.JPG", "q4 lbg2.JPG"),
@@ -612,7 +658,8 @@
 )
 
 #fotopage(
-  title: "Escalala bij de Belvedere",
+  "Escalala bij de Belvedere",
+  datum: "10 juni",
   onderschrift: "Het valt niet te omvatten hoe vaak de beestenmarkt ons mocht verwelkomen.",
   photos: (
     ("q4 belvedere2.JPG", "q4 belvedere3.JPG"),
@@ -622,7 +669,8 @@
 )
 
 #fotopage(
-  title: "Brunel Dag",
+  "Brunel Dag",
+  datum: "28 juni",
   onderschrift: "Een lichte bodem leggen voor DDB 4",
   photos: (
     ((path: "q4 brunel dag1.jpg", aspect: 0.8), (path: "q4 brunel dag2.jpg", aspect: 1.1)),
@@ -633,7 +681,7 @@
 
 
 #fotopage(
-  title: "Misc Q4",
+  "Misc Q4",
   onderschrift: "Kom je mee pinnen? Eerste halte: Spar.",
   photos: (
     ("q4 onderweg.jpg", "q4 random escalal.jpg"),
@@ -644,7 +692,7 @@
 )
 
 #fotopage(
-  title: "Q5 en Q6",
+  "Q5 en Q6",
   onderschrift: "Het feestje is nog lang niet klaar.",
   photos: (
     ("q5 eow1.jpg", "q5 eow2.jpg"),
@@ -655,7 +703,7 @@
 )
 
 #fotopage(
-  title: "Dineren met de ereleden",
+  "Dineren met de ereleden",
   photos: (
     ((path: "q2 diner kroes.JPG", aspect: 0.9), (path: "q3 diner vd sluis.JPG", aspect: 0.9)),
     ("q3 backer en verbruggen.JPG", (path: "q4 diner beenakker.JPG", aspect: 0.55), "q4 diner fastenau.JPG"),
@@ -665,16 +713,17 @@
 )
 
 #fotopage(
-  title: "Bezoekjes aan de ouders",
+  "Bezoekjes aan de ouders",
   photos: (
-    ("q4 bezoek hunter.JPG", "q4 bezoek kraan.JPG"),
+    ((path: "q4 bezoek hunter.JPG", aspect: 0.5), (path: "q4 bezoek kraan.JPG", aspect: 0.5)),
     ("q4 bezoek wouter.jpg", "q4 diner moree.JPG"),
   ),
 )
 
 #fotopage(
-  title: "William Hunter",
+  "William Hunter",
   onderschrift: "Shit waar is mijn brie.",
+  datum: "President",
   photos: (
     ("1 netjes.JPG", (path: "1 broodje.jpg", aspect: 1)),
     ((path: "1 kersttram.jpg", aspect: 0.8), (path: "1 treinslaap.JPG", aspect: 0.8)),
@@ -684,7 +733,8 @@
 )
 
 #fotopage(
-  title: "William Hunter",
+  "William Hunter",
+  datum: "President",
   onderschrift: "Laat deze jongen niet alleen in de trein.",
   photos: (
     ("1 slaap23.jpg", (path: "1 smooth.JPG", aspect: 1)),
@@ -695,7 +745,8 @@
 )
 
 #fotopage(
-  title: "Tijs Moree",
+  "Tijs Moree",
+  datum: "Secretaris",
   onderschrift: "Niemand kan zo goed samensmelten met een bank.",
   photos: (
     ((path: "2 brakke boi.jpg", aspect: 1.2), "2 bureau.JPG"),
@@ -706,8 +757,9 @@
 )
 
 #fotopage(
-  title: "Tijs Moree",
-  onderschrift: "Sexy-taris: likt niet alleen aan pennen. ",
+  "Tijs Moree",
+  datum: "Secretaris",
+  onderschrift: "Sexy-taris: likt niet alleen aan pennen.",
   photos: (
     ((path: "2 op bank.JPG", aspect: 1), "2 op.JPG"),
     ("2 poahh.jpg", "2 sexy.JPG"),
@@ -717,7 +769,8 @@
 )
 
 #fotopage(
-  title: "Wouter Kayser",
+  "Wouter Kayser",
+  datum: "Thesaurier",
   onderschrift: "Daar komt hij weer met vijf straaljagers.",
   photos: (
     ((path: "3 aangeschoten.JPG", aspect: 1.2), "3 chuchu.jpg"),
@@ -728,7 +781,8 @@
 )
 
 #fotopage(
-  title: "Wouter Kayser",
+  "Wouter Kayser",
+  datum: "Thesaurier",
   onderschrift: "De rots in de branding, ook tonen de foto's dat niet.",
   photos: (
     ("3 kgalekker.JPG", "3 klaarervoor.JPG", "3 kom maar hier.JPG"),
@@ -740,7 +794,8 @@
 
 
 #fotopage(
-  title: "Karen van der Werff",
+  "Karen van der Werff",
+  datum: "Commissaris Extern",
   onderschrift: "Kijk uit! Ze steelt je fiets!",
   photos: (
     ("4 bovenin.jpg", "4 escalalala.jpg"),
@@ -752,7 +807,8 @@
 
 
 #fotopage(
-  title: "Karen van der Werff",
+  "Karen van der Werff",
+  datum: "Commissaris Extern",
   onderschrift: "Gedurende het jaar heeft zij een gevaarlijke fascinatie voor tequila ontwikkeld.",
   photos: (
     ("4 ice.JPG", "4 kdfrn.JPG", "4 kerstcloseup.JPG"),
@@ -764,8 +820,9 @@
 )
 
 #fotopage(
-  title: "Thomas Roos",
-  onderschrift: "Koning van het kwijt zijn. ",
+  "Thomas Roos",
+  datum: "Commissaris Onderwijs",
+  onderschrift: "Koning van het kwijt zijn.",
   photos: (
     ("5 auwie.jpg", "5 barffie.jpg"),
     ("5 kersttram.jpg", "5 close up.JPG"),
@@ -774,10 +831,11 @@
   ),
 )
 #fotopage(
-  title: "Thomas Roos",
+  "Thomas Roos",
+  datum: "Commissaris Onderwijs",
   onderschrift: "Laat deze jongen niet in de buurt van je vingers.",
   photos: (
-    ("5 ik pakje.JPG", "5 kom hier.JPG"),
+    ("5 ik pakje.JPG", (path: "5 kom hier.JPG", aspect: 1)),
     ((path: "5 laat me.JPG", aspect: 1), (path: "5 loekkie close.JPG", aspect: 1)),
     ("5 nom nom.JPG", "5 slaapje.jpg"),
     ("5 tong.JPG", "5 vies tongetje.JPG", "5 brakkie.jpg"),

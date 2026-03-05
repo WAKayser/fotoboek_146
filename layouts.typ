@@ -30,10 +30,11 @@
 }
 
 #let fotopage(
-  title: none,
+  title,
   bovenschrift: none,
   onderschrift: none,
-  photos: (),
+  datum: none,
+  photos: none,
   gutter: 6pt,
 ) = {
   pagebreak(weak: true)
@@ -64,9 +65,30 @@
   }
 
   block(breakable: true)[
-    #if title != none {
-      align(center)[#text(size: 24pt, weight: "bold")[#title]]
+    // #if title != none {
+    #context {
+      let page-num = counter(page).get().first()
+      if calc.rem(page-num, 2) == 0 {
+        align(start)[#text(size: 24pt, weight: "bold")[#title]]
+        if datum != none {
+          place(top + end, dy: 5pt)[#text(size: 16pt, weight: "semibold", style: "italic", fill: rgb(
+            49,
+            111,
+            59,
+          ))[#datum]]
+        }
+      } else {
+        align(end)[#text(size: 24pt, weight: "bold")[#title]]
+        if datum != none {
+          place(top + start, dy: 5pt)[#text(size: 16pt, weight: "semibold", style: "italic", fill: rgb(
+            49,
+            111,
+            59,
+          ))[#datum]]
+        }
+      }
     }
+    // }
     #if bovenschrift != none {
       align(center)[#text(size: 12pt)[#bovenschrift]]
     }
@@ -75,7 +97,16 @@
       gutter: gutter,
     )
   ]
+
   if onderschrift != none {
-    align(center)[#text(size: 12pt)[#onderschrift]]
+    align(center)[#text(size: 14.6pt)[#onderschrift]]
+  }
+  context {
+    let page-num = counter(page).get().first()
+    if calc.rem(page-num, 2) == 0 {
+      place(bottom + left, dy: -10pt)[#counter(page).display("1")]
+    } else {
+      place(bottom + right, dy: -10pt)[#counter(page).display("1")]
+    }
   }
 }
